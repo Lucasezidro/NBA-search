@@ -1,16 +1,16 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-type ITeam = {
-	name: string;
-	championship: number;
-	champion_year?: string[];
-	conference_championship: number;
-	fundation_year: number;
-	history_best_player: string;
-	today_best_player: string;
-	logo: string;
-	classic_player_photo: string;
-	today_player_photo: string;
-};
+export type ITeam = {
+	name: string
+	championship: number
+	champion_year?: string[]
+	conference_championship: number
+	fundation_year: number
+	history_best_player: string
+	today_best_player: string
+	logo: string
+	classic_player_photo: string
+	today_player_photo: string
+}
 
 export const TEAMS: ITeam[] = [
 	{
@@ -27,7 +27,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Boston Celtics',
-		logo: 'https://i.pinimg.com/236x/2c/04/00/2c0400dfdf9d8d3b223a2ab901522cb9.jpg',
+		logo: 'https://cdn.freebiesupply.com/images/large/2x/boston-celtics-logo-transparent.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 17,
@@ -75,7 +75,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Cleveland Cavaliers',
-		logo: 'https://i.pinimg.com/474x/d6/54/d1/d654d1beb2cf07c2edc19ffe0d9ee5ef.jpg',
+		logo: 'https://content.sportslogos.net/logos/6/222/full/cleveland_cavaliers_logo_primary_2023_sportslogosnet-5369.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 1,
@@ -87,7 +87,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Dallas Mavericks',
-		logo: 'https://upload.wikimedia.org/wikipedia/pt/6/69/Dallas_Mavericks_logo.jpg',
+		logo: 'https://assets.stickpng.com/images/58419cd6a6515b1e0ad75a68.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 1,
@@ -99,7 +99,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Denver Nuggets',
-		logo: 'https://upload.wikimedia.org/wikipedia/pt/thumb/5/58/Denver_Nuggets_logo.jpg/200px-Denver_Nuggets_logo.jpg',
+		logo: 'https://logodownload.org/wp-content/uploads/2021/07/denver-nuggets-logo-1.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 0,
@@ -123,7 +123,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Golden State Warriors',
-		logo: 'https://i.pinimg.com/originals/3a/06/5b/3a065bfd8b17e1a772fda10ebd88bb4f.png',
+		logo: 'https://logos-world.net/wp-content/uploads/2020/05/Golden-State-Warriors-Logo-2020-Present.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 7,
@@ -135,7 +135,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Houston Rockets',
-		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdVXOu4SadSu7HrNtWuR_svMIwsCdFiLYu7MDB_1hPMPy3VnTwoaCMBhvFaZnhU1VEJs&usqp=CAU',
+		logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Rockets.svg/1200px-Houston_Rockets.svg.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 2,
@@ -147,7 +147,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Indiana Pacers',
-		logo: 'https://thumbs.dreamstime.com/z/ilustra%C3%A7%C3%A3o-editorial-do-logotipo-indiana-pacers-em-fundo-branco-%C3%ADcones-dos-logotipos-%C3%ADcone-vetoriais-definidos-m%C3%ADdias-sociais-209798252.jpg',
+		logo: 'https://logos-world.net/wp-content/uploads/2020/05/Indiana-Pacers-logo.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 0,
@@ -183,7 +183,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Memphis Grizzlies',
-		logo: 'https://logodetimes.com/wp-content/uploads/memphis-grizzlies.png',
+		logo: 'https://logodownload.org/wp-content/uploads/2021/07/memphis-grizzlies-logo.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 0,
@@ -219,7 +219,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Minnesota Timberwolves',
-		logo: 'https://logodetimes.com/wp-content/uploads/minnesota-timberwolves.png',
+		logo: 'https://cdn.freebiesupply.com/images/large/2x/minnesota-timberwolves-logo-transparent.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 0,
@@ -279,7 +279,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Philadelphia 76ers',
-		logo: 'https://static.wikia.nocookie.net/basketball/images/e/e3/Philadelphia_76ers.png/revision/latest?cb=20170208005828&path-prefix=pt',
+		logo: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Philadelphia-76ers-Logo-1977-1996.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 3,
@@ -303,7 +303,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Portland Trail Blazers',
-		logo: 'https://logodetimes.com/wp-content/uploads/portland-trail-blazers.png',
+		logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Portland-Trail-Blazers-Logo-2002.png/800px-Portland-Trail-Blazers-Logo-2002.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 1,
@@ -315,7 +315,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Sacramento Kings',
-		logo: 'https://logodetimes.com/wp-content/uploads/sacramento-kings.png',
+		logo: 'https://cdn.freebiesupply.com/images/large/2x/sacramento-kings-logo-transparent.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 1,
@@ -327,7 +327,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'San Antonio Spurs',
-		logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_v8O5A-CztlOOykRa7bBcKLEdv2Yisf68yYyP5aokI3UjUb-Q1jQI6WRbiigl0gWJ72s&usqp=CAU',
+		logo: 'https://assets.stickpng.com/images/58419cbca6515b1e0ad75a66.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 5,
@@ -339,7 +339,7 @@ export const TEAMS: ITeam[] = [
 	},
 	{
 		name: 'Toronto Raptors',
-		logo: 'https://upload.wikimedia.org/wikipedia/pt/a/a2/Toronto_Raptors_logo.png',
+		logo: 'https://cdn.freebiesupply.com/images/large/2x/toronto-raptors-logo-transparent.png',
 		classic_player_photo: '',
 		today_player_photo: '',
 		championship: 1,
