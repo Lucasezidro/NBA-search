@@ -24,6 +24,7 @@ const Search = () => {
 
   return (
     <Container>
+
       <h1>Escolha um time da NBA</h1>
 
       <span>
