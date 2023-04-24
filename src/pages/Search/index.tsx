@@ -12,10 +12,10 @@ const Search = () => {
       <span>Times, jogadore, tabelas, records, tudo sobre o mundo da NBA você encontra aqui!</span>
 
       <div className='content'>
-        <img src={nbalogo} alt="logo da nba" />
+        <img src={nbalogo} alt='logo da nba' />
         <input 
-          type="search" 
-          placeholder="Time da NBA"
+          type='search' 
+          placeholder='Time da NBA'
         />
       </div>
     </Container>

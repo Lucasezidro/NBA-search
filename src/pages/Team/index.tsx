@@ -1,14 +1,11 @@
-import { Container } from "./styles"
+import {Container} from './styles'
 
-const Team = () => {
-
-  return (
-    <Container>
-      <h1>
+const Team = () => (
+	<Container>
+		<h1>
         Time
-      </h1>
-    </Container>
-  )
-}
+		</h1>
+	</Container>
+)
 
 export default Team

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 module.exports = {
 	env: {
 		browser: true,
@@ -5,16 +6,13 @@ module.exports = {
 	},
 	extends: [
 		'plugin:react/recommended',
-		'xo',
-		"eslint:recommended",
-		"plugin:react/recommended",
-		"plugin:@typescript-eslint/recommended"
+		'eslint:recommended',
+		'plugin:react/recommended',
+		'plugin:@typescript-eslint/recommended',
 	],
 	overrides: [
 		{
-			extends: [
-				'xo-typescript',
-			],
+			extends: [],
 			files: [
 				'*.ts',
 				'*.tsx',
@@ -27,10 +25,12 @@ module.exports = {
 	},
 	plugins: [
 		'react',
-		"@typescript-eslint"
+		'@typescript-eslint',
 	],
 	rules: {
 		quotes: ['error', 'single'],
-		'jsx-quotes': ["error", "prefer-double"]
+		'jsx-quotes': ['error', 'prefer-single'],
+		semi: ['error', 'never'],
+		'react/react-in-jsx-scope': 'off',
 	},
-};
+}
