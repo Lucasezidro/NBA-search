@@ -9,6 +9,7 @@ export const Global = createGlobalStyle`
     --light-700: #fafafa;
     --light-500: #ffffff;
     --blue: #457b9d;
+    --blue-light: #0ea5e9;
     --red: #e63946;
   }
   
